@@ -1,0 +1,40 @@
+{
+    "name": "PWA Clock",
+    "id": "com.landerslin.pwa-clock",
+    "short-name": "Clock",
+    "description": "A progressive web app (PWA) clock.",
+    "orientation": "portrait",
+    "display": "standalone",
+    "background-color": "#FFFFFF",
+    "icons": [
+        {
+            "src": "images/android-chrome-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "images/android-chrome-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "images/apple-touch-icon.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "images/favicon-16x16.png",
+            "type": "image/png",
+            "sizes": "16x16"
+        },
+        {
+            "src": "images/favicon-32x32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "images/favicon.ico",
+            "sizes": "48x48"
+        }
+    ]
+}
