@@ -1,0 +1,32 @@
+:root {
+    --background-color: #ffffff;
+    --text-color: #222222;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #2a2424;
+        --text-color: #eeeeee;
+    }
+}
+
+html {
+    background-color: var(--background-color);
+}
+
+h2 {
+    font-size: 150px;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+h1, h2, h3, h4 {
+    color: var(--text-color);
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
