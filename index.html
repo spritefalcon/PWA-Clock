@@ -18,5 +18,16 @@
     <h4>Progressive Web App Clock</h4>
 
     <script src="script.js"></script>
+    <script>
+        if ('serviceworker' in navigator) {
+            window.addEventListener('load', function() {
+                navigation.serviceWorker.register('sw.js').then(function(registration) {
+                    console.log('Service worker registration successful with scope: ', registration.scope);
+                }, function(err) {
+                    console.log('Service worker registration failed: ', err);
+                });
+            });
+        }
+    </script>
 </body>
 </html>
